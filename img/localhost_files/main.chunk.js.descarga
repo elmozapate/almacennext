@@ -1,0 +1,1227 @@
+(this["webpackJsonpmy-app"] = this["webpackJsonpmy-app"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style.css":
+/*!*************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/style.css ***!
+  \*************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "/* @import url(\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap\");\r\n:root{ --primary-color:red;\r\n       --secundary-color:blue;\r\n       --third-color:white;\r\n}\r\n*{ \r\npadding: 0;\r\nmargin: 0;\r\nbox-sizing:border-box ;\r\n}\r\n.hide {\r\n    display: none;\r\n}\r\n.text-menu{\r\n    display: none;\r\n}\r\n.header-nav{\r\n    border-color: rgba(0,0,0,0.2) 1px solid;\r\n    height: 60px;\r\n    width: 100%;\r\n    justify-content: space-between;\r\n    display: flex;\r\n    background-color: black;\r\n    padding: 0 10px;\r\n    align-items: center;\r\n    margin-bottom: 80px;\r\n}\r\n.logo{\r\n    width:60%;\r\n    max-width: 450px;\r\n}\r\n.toggle-icon{    \r\n    width:auto ;\r\n    height: auto;\r\n    display: inline-block;\r\n}\r\n.logo-side{\r\n    display: none;\r\n}\r\n.side-nav{\r\n    z-index: 500;\r\n    text-align: center;\r\n    line-height: 50px;\r\n    background-color: rgba(0, 0, 0, 0.918);\r\n    width: 350px;\r\n    height: 100vh;\r\n    position: absolute;\r\n    top: 0;\r\n    right: 0;\r\n    padding-top: 100px ;\r\n }\r\n .foto{\r\n    margin:0 auto;\r\n    width: 65px;\r\n    height: 65px;\r\n    background-color: whitesmoke;\r\n    border-radius: 50%;\r\n}\r\n.fotousuario{\r\n    margin:0 auto;\r\n    width: 80%;\r\n    height: 80%;\r\n}\r\n.link{\r\n    margin-left: -40px;\r\n    font-family: 'Poppins';\r\n    text-decoration:none;\r\n    color:white;\r\n}\r\n.fa-box, .fa-tasks{\r\n    margin-left: 15%;\r\n    margin-top: 15px;\r\n    color:var(--primary-color);\r\n    padding-right: 1%;\r\n    width: auto;\r\n    height: auto;\r\n}\r\n.cliente{\r\n    \r\n    font-family: 'Poppins';\r\n    color:white;\r\n}\r\n.button-entrar{\r\n    cursor: pointer;\r\n    font-family: 'Poppins';\r\n    background-color: red;\r\n    color:white;\r\n    border-color:white;\r\n    border-radius: 5%;\r\n    margin-top: 20px;\r\n    margin-left: 30px;\r\n    padding: 8px 30px;\r\n}\r\nbody {\r\n    width: 100%;\r\n    height: 100%;\r\n    background-image: url(./img/fondo.jpg) ;\r\n    background-size:cover ;\r\n    background-repeat: no-repeat ;    \r\n    font-family: 'Poppins';\r\n  }\r\n.secciones {\r\n  text-align: center;\r\n    }\r\n.container {\r\n    margin:0 auto;\r\n    display:flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: auto;\r\n    height: auto;\r\n} \r\n.left-col .subhead {\r\n    margin-top: -40px;\r\n    text-transform: uppercase;\r\n    font-weight: bold;\r\n    color: gray;\r\n    letter-spacing: .3em;\r\n}\r\n.left-col h1 {\r\n    font-size: 2.5em;\r\n    line-height: 1.3em;\r\n    margin-bottom: 2.em;\r\n}\r\nh1{\r\n    margin-top: -60px;\r\n    font-size: 25px;\r\n}\r\n.tituloprincipal{\r\n    margin: 0;\r\n}\r\n.left-col .primary-cta {\r\n    margin-bottom: 15px;\r\n    background:var(--secundary-color) ;\r\n    color:var(--third-color) ;\r\n    text-decoration: none;\r\n    padding: .6em 3.3em;\r\n    font-size: 1.4em;\r\n    border-radius: 5em;\r\n    font-weight: bold;\r\n}\r\n.left-col .login-cta  {\r\n    margin: 15px 0;    \r\n    background:var(--primary-color) ;\r\n    color:var(--third-color) ;\r\n    text-decoration: none;\r\n    padding: .5em 3.3em;\r\n    font-size: 1.4em;\r\n    border-radius: 5em;\r\n    font-weight: bold;\r\n    }\r\n.secciones .container .left-col {\r\n    margin: 0em 2em 0 5em;\r\n    display: inline-block;\r\n}\r\n.formulario_label .formulario_selector .formulario_submit .formulario_titulo{\r\n    z-index: 200;\r\n}\r\nfieldset{\r\n    width: 50%;\r\n    margin-top: -50px;\r\n    display: flex;\r\n    flex-flow: column nowrap;\r\n    border-radius: 15px;\r\n    padding: 10px 30px;\r\n    border-color: rgba(0,0,0,0.2) solid 1px;\r\n    box-shadow: -7px 9px 15px -7px rgba(0,0,0,0.2);\r\n}\r\n.form-login{\r\n    width: 250px;\r\n    display: flex;\r\n    flex-flow: column nowrap ;    \r\n    padding: 20px;\r\n    margin-left: 10%;\r\n}\r\nlabel{\r\n    display: block;\r\n}\r\ninput{\r\npadding: 8px 10px;\r\nborder-radius: 8px;\r\nborder: s0olid 2px grey;\r\n}\r\n.slider-section{\r\n    display: block;\r\n    padding-top: 80px;\r\n    padding-bottom: 50px;\r\n    width: 130px;\r\n    margin-left: 20%;\r\n}\r\n.container-slider{\r\n    box-shadow: -7px 9px 15px -7px rgba(0,0,0,0.8);\r\n    display: block;\r\n    background-color: rgba(0,0,0,0.8);\r\n    width: 280px;\r\n    height: 220px;\r\n    margin-left: -20px;\r\n    padding: 15px;\r\n    margin-top: -150px;\r\n    border-radius: 15%;\r\n  }\r\n.slider-titulo{\r\n    color: honeydew;\r\n    text-align: center;\r\n    padding-bottom: 5px;\r\n    margin-top: -10px;\r\n}\r\nul, li {\r\n      padding: 0;\r\n      margin: 0;\r\n      list-style: none;\r\n  }\r\nul.slider{\r\n    position: relative;\r\n    width: 250px;\r\n    height: 140px;\r\n  }\r\n ul.slider li {\r\n    position: absolute;\r\n    left: 0px;\r\n    top: 0px;\r\n    opacity: 0;\r\n    width: inherit;\r\n    height: inherit;\r\n    transition: opacity .5s;\r\n    box-shadow: -7px 9px 15px -7px rgba(0,0,0,0.2);\r\n    border-radius: 15%;\r\n}\r\nul.slider li img{\r\n    width: 250px;\r\n    height: 140px;\r\n    border-radius: 15%;\r\n    box-shadow: -7px 9px 15px -7px rgba(0,0,0,0.2);\r\n    object-fit: cover;\r\n  }\r\nul.slider li:first-child {\r\n      opacity: 1; \r\n  }\r\nul.slider li:target {\r\n    opacity: 1; \r\n  }\r\n\r\n.menu li{\r\n    display: inline-block;\r\n    text-align: center;\r\n  }\r\n.menu li a{\r\n    display: inline-block;\r\n    color: white;\r\n    text-decoration: none;\r\n    background-color: grey;\r\n    width: 20px;\r\n    height: 20px;\r\n    font-size: 14px;\r\n    padding: 1px;\r\n    border-radius: 100%;\r\n  }\r\n.marcas{\r\n    width: 300px;\r\n    margin-left: 20%;\r\n    color: white;\r\n    background-color: rgba( 0,0,0,0.81 );\r\n    border-radius: 15%;\r\n}\r\n.marcasseccion{\r\n    display: none;\r\n    padding-top: 5px;\r\n    font-weight: bold;\r\n    font-size: 15px;\r\n    text-align: center;\r\n    margin-top: -20px;\r\n    padding-bottom: 25px;\r\n}\r\n.marcasfoto{\r\n    margin-left: 2px;\r\n    text-align: center;\r\n    margin-top: 15px;\r\n    width: 270px;\r\n    padding-bottom: 5px;\r\n    border-radius: 10%;\r\n}\r\nfooter{    \r\n    font-size: .8em;\r\n    height: 80px;\r\n    background-color: rgba(0, 0, 0, 0.918);\r\n    width: 100%;\r\n    position: absolute;\r\n }\r\n.footer-content{\r\n    color: white;\r\n    margin-left: 10%;\r\n    padding: auto;\r\n}\r\n.footer-text{\r\n    padding-top: 5px;\r\n    text-align: left;\r\n    margin-left:15%;\r\n}\r\n.footer-image{\r\n    margin-left: 60%;\r\n    margin-top: -8%;\r\n}\r\n.legend-footer{\r\n    margin-top: -10px;\r\n    font-size: 1em;\r\n    text-align: center;\r\n    font-family: 'Poppins';\r\n    color:var(--third-color);\r\n}\r\n.formulario_imput_Dos{\r\n    font-size: 12px;\r\n    height: 17px;\r\n    background-color: white;\r\n    text-align: center;\r\n    color: black; \r\n    width: 200px ;\r\n    padding-bottom: .05em;\r\n    margin-bottom: .6em; \r\n   -webkit-box-sizing: border-box;\r\n   box-sizing: border-box;\r\n }\r\n .formulario_selector_Dos {\r\n    height: 20px;\r\n    font-size: 12px;\r\n    background-color: white;\r\n    border-radius: 15%;\r\n    text-align: center;\r\n    color: black; \r\n    width: 200px ;\r\n    padding-bottom: .05em;\r\n    margin-bottom: .6em;\r\n    -webkit-box-sizing: border-box;\r\n    box-sizing: border-box;   \r\n }\r\n .formulario_label_Dos {\r\n    font-size: 13px;\r\n     margin-left: 10px;\r\n    height: 17px;\r\n    background-color: #1A8CFF;\r\n    border-radius: 15%;\r\n    text-align: center;\r\n  color: white; \r\n  width: 200px ;\r\n  padding-bottom: .05em;\r\n  margin-bottom: .6em;\r\n    -webkit-box-sizing: border-box;\r\n          box-sizing: border-box;   \r\n }\r\n .submit-btn-dos{\r\n     height: 20px;\r\n }\r\n\r\n.logocerrar{\r\n    background-color: white;\r\n    position: absolute;\r\n    top: 10px;\r\n    right: 0;\r\n    border-radius: 25px;\r\n}\r\n.empty-inventory{    \r\n    text-align: center;\r\n    height: 300px;\r\n    margin-left:10%;\r\n    margin-top: 25px;\r\n    padding-bottom: 250px;\r\n    margin-bottom: 120px;\r\n    background:url(\"./img/caja-blanca-vacia.jpg\") no-repeat center;\r\n    background-size: contain;    \r\n }\r\n.nombreVacio{\r\n    margin-left: 10%;\r\n    display: block;\r\n    width: 80%;\r\n    height: 20px;\r\n    text-align: center;\r\n    color:red;\r\n    font-family: 'Poppins';\r\n}\r\n.nombreVacio h1{\r\n    width: 100%;\r\n    text-align: center;\r\n    height: 5px;\r\n}\r\n.nuevosproductos{\r\n    margin-left: -50px;\r\n    background-color: #1A8CFF;\r\n    width: 250px;\r\n    border-radius: 15%;\r\n    text-align: center;\r\n    padding-top: 20px;\r\n    padding-bottom: 15px;\r\n}\r\n.submit-btn-dos{\r\n     margin-left: 5px;\r\n     height: 35px;\r\n     width: 100px;\r\n}\r\n\r\n.table-rwd {\r\nmargin-top: 15px;\r\nfont-size: .85em;\r\nborder: 1px solid rgba(181, 213, 144, 0.5);\r\ncolor: var(--secundary-color);\r\nborder-collapse: collapse;\r\nmargin-left: auto;\r\nmargin-right: auto; }\r\n.table-rwd td, .table-rwd th {\r\npadding: .8em;\r\nborder-bottom: 1px solid rgba(--primary-color) ; }\r\n.table-rwd th {\r\nbackground: #1A8CFF;\r\ncolor:var(--third-color);\r\nfont-weight: normal;\r\ntext-align: right; }\r\n.table-rwd td {\r\ntext-align: right; }\r\n.table-rwd td:first-of-type {\r\ntext-align: right; }\r\n.table-rwd td:first-of-type:before {\r\n    content: \"\"; }\r\n.table-rwd td:first-of-type:after {\r\n    content: \"\"; }\r\n.table-rwd tr:hover {\r\n    background: rgba(181, 213, 144, 0.2); }\r\n.table-rwd tr td:nth-child(2n) {\r\n    background: rgba(181, 213, 144, 0.2); }\r\n\r\n.table-container {\r\n    margin-left: 10%;  \r\n    margin-right: 10%;\r\n    overflow-x: auto; \r\n    scroll-snap-type: x mandatory ;\r\n    margin-top: -20px;\r\n}\r\n.compra{\r\n    z-index: -5;\r\n}\r\nh1{\r\n    font-size: 15px;\r\n}\r\n.table-rwd {\r\n    min-width: 900px; \r\n}\r\n.table-rwd td:first-child {\r\n    position: absolute;\r\n    background:var(--third-color );\r\n    width: 8em;\r\n    display: block; \r\n}\r\n.table-rwd td:last-child {\r\n    background:var(--primary-color );\r\n    width: 8em;\r\n}\r\n.table-rwd th:first-child {\r\n    position: absolute;\r\n    width: 8em; \r\n}\r\n.table-rwd tr:hover td:first-child {\r\n    background: #1A8CFF;\r\n    color:var(--third-color); \r\n}\r\n.campos-form{\r\n    text-align: center;\r\n    height: 30px;\r\n}\r\n.editor{\r\n    width: 500px;\r\n    height: 600px;\r\n    border: double royalblue solid 1px;\r\n    border-radius: 95px;\r\n    margin-right: 10%;\r\n}\r\n.secciones-cta{\r\n    padding-bottom: 70px;\r\n}\r\n@media only screen and (min-width: 417px) {\r\n    .secciones-cta{\r\n        padding-bottom: 110px;\r\n    }   \r\n    .slider-section{\r\n        padding-top: 50px;\r\n        padding-bottom: 50px;\r\n        margin-left: 25%;\r\n    }\r\n}\r\n.text-menu{\r\n    display: none;\r\n}\r\n\r\n@media only screen and (min-width: 529px) {\r\n    .secciones-cta{\r\n        padding-bottom: 180px;\r\n    }   \r\n    .slider-section{\r\n        margin-top: -70px;\r\n    }\r\n}\r\n@media only screen and (min-width: 635px) {\r\n    .marcasseccion{\r\n        display: block;\r\n        margin-left: 42%;\r\n        width: 270px;\r\n        margin-top: -270px;\r\n        padding-bottom: 35px;\r\n    }\r\n    .slider-section{\r\n        margin-left: 10%;\r\n        margin-top: -70px;\r\n    }\r\n}\r\n.secciones-tabla {\r\n    z-index: .8;\r\n    margin-top: -75px;\r\n    width: 100%;\r\n    position: relative;\r\n    text-align: center;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    padding-bottom: 330px;\r\n}\r\n.seccionesform{\r\n    height: 475px;\r\n    margin-left: 15%;\r\n    width: 250px;\r\n}\r\n.submit-btn{\r\n    display: block;\r\n}\r\n.secciones-tabla-dos {\r\n    box-shadow: rgba( 0,0,0,0.7 );\r\n    margin-top: 25px;\r\n    text-align: center;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    padding-bottom: 30px;\r\n}\r\n.nombrePag{\r\n  display:block ;\r\n  margin-top: 1px;\r\n  position: relative;\r\n  margin-left: auto;\r\n  margin-right : auto;\r\n  width: 60%;\r\n  height: 20px;\r\n  text-align: center;\r\n  color:red;\r\n  font-family: 'Poppins';\r\n} \r\n.formulario{\r\n    margin-top: -40px;\r\n    height: 100%     ;\r\n  }\r\n  .formulario_selector{\r\n    width: 60%;\r\n    margin-left: 25px;\r\n    padding: 20px;\r\n    margin-top:  80px;\r\n  }\r\n  input{\r\n      width: 200px;\r\n  }\r\n  .formulario_titulo{\r\n    text-align: center;\r\n    margin-top: 0;\r\n    color: rgba(0, 0,0,0,0.7 );\r\n }\r\n .formulario_imput, .formulario_label, \r\n .formulario_submit {\r\n   height: 20px;\r\n   margin-top: 70px;\r\n   margin-left: 25px;\r\n   text-align: center;\r\n   width: 200px ;\r\n   font-size: .5em;\r\n }\r\n .botones{\r\n     display: block;\r\n     width: 200px;\r\n }\r\n .formulario_imput{\r\n  width: 60%;\r\n  padding: 20px;\r\n  background: white;\r\n   border: 1px solid rgba(0, 0, 0,0.3);\r\n   margin-bottom: 40px;\r\n   color: red;\r\n }\r\n .formulario_label{\r\n   width: 58%;\r\n   margin-top: -80px;\r\n   z-index: -20;  \r\n   text-align: left;\r\n   color: black;\r\n   transition:  all 0.2s;\r\n   background-color: whitesmoke;\r\n   margin-left: 119px;\r\n}\r\n.formulario_submit{\r\n  width: 60%;\r\n  background: rgba(0, 0,0,0,0.7 );\r\n  color:white;\r\n  padding: 10px 20px;\r\n  cursor: pointer;\r\n  border: none;\r\n}\r\n.formulario_imput:focus{\r\n  outline: 1px solid rgba(0, 0,0,0,0.7 );\r\n}\r\n.formulario_imput:focus + .formulario_label{\r\n  margin-top: -135px;}  \r\n  \r\n .container_Dos{\r\n    display: block;\r\n    position: relative;\r\n    margin-left: 30%;\r\n}\r\n@media only screen and (min-width: 600px) {\r\n    .formulario_imput_Dos {\r\n        padding-bottom: .2em;\r\n        margin-bottom: 1em;\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    } \r\n    .formulario_selector_Dos{\r\n        padding-bottom: .2em;\r\n        margin-bottom: 1em;\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    }\r\n    .submit-btn{\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    }\r\n     .formulario_label_Dos{\r\n        width: 100px;\r\n        padding-bottom: .2em;\r\n        margin-bottom: 1em;\r\n    }\r\n    .formato-crear {\r\n        margin-left: 0;\r\n        display: block;\r\n    }\r\n    .crear-producto{\r\n        z-index: -1;\r\n    }\r\n    .secciones-tabla-dos{\r\n        box-shadow: rgba(0, 0,0,0,0.7 );\r\n        margin-left: 140px;\r\n        margin-top: -460px;\r\n        padding-bottom: 450px;\r\n        display: inline-block;\r\n        position: absolute;\r\n        width: 75%;\r\n    }\r\n    .container_Dos{\r\n        display: block;\r\n        position: relative;\r\n        margin-left: 90px;\r\n        padding-bottom: 20px;\r\n    }\r\n    .nuevosproductos{\r\n        text-align: center;\r\n        background-color: rgba(91, 139, 241, 0.7);\r\n        margin-top: -17px;\r\n        margin-left: -50px;\r\n        padding-bottom: 15px;\r\n        padding-top: 15px;\r\n        border-radius: 5%;\r\n        width: 120px;\r\n        box-shadow: -7px 9px 15px -7px rgba(0,0,0,0.6);\r\n    }\r\n}\r\n@media only screen and (min-width: 810px) \r\n{\r\n    .slider-section{\r\n        margin-top: -50px;\r\n        margin-left: 18%;\r\n    }\r\n    .marcasseccion{\r\n        margin-left: 50%;\r\n        padding-bottom: 80px;\r\n    }\r\n    footer{\r\n        padding-left: 100px;\r\n    }\r\n    .logo{\r\n        z-index: 2;\r\n    }\r\n    .text-menu{\r\n        color: var(--primary-color);\r\n        font-size: 15px;\r\n        font-family: 'Poppins';\r\n        margin-top: 60px;\r\n        display: block;\r\n        padding: auto;\r\n        font-weight: bold;\r\n    }\r\n    .logo-side{\r\n        padding: auto;  \r\n        display: block;\r\n        margin-left: 7px;\r\n        margin-top: -60px;\r\n    }\r\n    .side-nav{\r\n        text-align: center;\r\n        line-height: 50px;\r\n        background-color: rgba(0, 0, 0, 0.618);\r\n        width: 50px;\r\n        min-height: 100vh;\r\n        display: block;\r\n        position: fixed;\r\n        z-index: 1;\r\n        top: 0;\r\n        left: 0;\r\n        padding-top: 100px ;\r\n            }\r\n       .fotousuario{\r\n            display: none;      \r\n       }     \r\n       .foto{\r\n           display: none;\r\n       }\r\n       .button-entrar{\r\n           display: none;\r\n       }\r\n        .fa-tasks , .fa-box{\r\n            display: none;\r\n        }\r\n        .link-text{\r\n            display: none;\r\n        }\r\n        .cliente{\r\n            display: none;\r\n        }\r\n        .logo-side{\r\n            width: 30px;\r\n            top: 100px;\r\n            left: 0;\r\n        }\r\n    .side-nav:hover .side-menu{\r\n        text-align: center;\r\n        line-height: 50px;\r\n        background-color: rgba(0, 0, 0, 0.618);\r\n        width: 250px;\r\n        min-height: 100vh;\r\n        display: block;\r\n        position: fixed;\r\n        z-index: 1;\r\n        top: 0;\r\n        left: 0;\r\n        padding-top: 100px ;\r\n        box-sizing: border-box;\r\n     }     \r\n     .side-nav:hover .text-menu,.side-nav:hover .logo-side {\r\n        display: none;\r\n    }\r\n     .side-nav:hover .button-entrar {\r\n        display: inline-flex;\r\n    }\r\n     .side-nav:hover .link-text {\r\n         display: inline-flex;\r\n     }\r\n     .side-nav:hover .cliente {\r\n        display: inline-flex;\r\n     }\r\n     .side-nav:hover .foto {\r\n        display: inline-flex;\r\n     }\r\n     .side-nav:hover .fotousuario {\r\n        display: inline-flex;\r\n     }\r\n     .side-nav:hover.button-entrar{\r\n        display: inline-flex;\r\n     }\r\n     .side-nav:hover  .fa-tasks{\r\n        display: inline-flex;\r\n     }\r\n     .side-nav:hover  .fa-box{\r\n        display: inline-flex;\r\n     }\r\n     .nuevosproductos{\r\n         margin-left: -5px;\r\n        background-color: #1A8CFF;\r\n    }\r\n    .secciones{\r\n        margin-left: 5%;\r\n     }\r\n    .secciones-tabla{\r\n         margin-left: 50px;\r\n     }\r\n    .seccionesform{\r\n         margin-left: 5%;\r\n         height: 400px;\r\n     }\r\n    .form-login{\r\n        margin-left: 60%;\r\n        width: fit-content;\r\n        height: fit-content;\r\n        padding-bottom: 50px;\r\n    }\r\n    .secciones-cta{\r\n        padding-bottom: 100px;\r\n    }  \r\n    .seccionesPrincipal{\r\n        padding-bottom: 50px;\r\n        margin-left: 10px;\r\n    }\r\n    footer{\r\n        z-index: 3;\r\n        height: 220px;\r\n    }\r\n    .footer-content{\r\n        margin-left: 250px;\r\n        margin-top: 15px;\r\n    }\r\n    .toggle-icon{\r\n        display: none;\r\n    }\r\n    .logo{\r\n        margin-left: 25%;\r\n    }\r\n    .contact-section {\r\n        position: \r\n        relative;\r\n    }\r\n    .footer-left  {\r\n        color: white;\r\n        display: flex;\r\n        height: 100%;\r\n        width: 20%;\r\n        margin-left: 15px;\r\n        margin-top: 20px;\r\n    }\r\n    .footer-left  input button textarea{\r\n        color: white;\r\n        display: block;\r\n        width:100px;\r\n    }\r\n    .input-footer{\r\n        height: 10px;\r\n    }\r\n    h2{\r\n        position: absolute;\r\n        margin-left: 10px;\r\n        margin-top: -23px;\r\n    }\r\n    \r\n    .footer-content{\r\n        width:  50%;\r\n        margin-top: -185px;\r\n    }\r\n    .footer-text{\r\n        margin-top: 20px;\r\n        margin-left: 100px;\r\n        font-size: 20px;\r\n    }\r\n    .footer-image{\r\n        margin-left: 400px;\r\n        width: 80px;\r\n        margin-top: -50px;\r\n    }\r\n    .legend-footer{\r\n        margin-top: 5px;\r\n        font-size: 25px;\r\n        margin-left: 200px;\r\n    }\r\n    .logo-footer{\r\n        display: flex;\r\n        width: 400px;\r\n        margin-left: 250px;\r\n        margin-top: -30px;\r\n    }\r\n    .formulario_imput_Dos {\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    } \r\n    .formulario_selector_Dos{\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    }\r\n    .submit-btn{\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    }\r\n     .formulario_label_Dos{\r\n        width: 100px;\r\n    }\r\n    .formato-crear {\r\n        margin-left: 0;\r\n        display: block;\r\n        z-index: .7;\r\n    }\r\n    .secciones-tabla-dos{\r\n        box-shadow: rgba(0, 0,0,0,0.7 );\r\n        margin-left: 140px;\r\n        margin-top: -450px;\r\n        padding-bottom: 450px;\r\n        display: inline-block;\r\n        position: absolute;\r\n        width: 85%;\r\n    }\r\n    .container_Dos{\r\n        display: block;\r\n        position: relative;\r\n        margin-left: 90px;\r\n    }\r\n    .logocerrar{\r\n        display:none;\r\n    }\r\n    .table-container {\r\n        margin-left: 10%;  \r\n        margin-right: 10%;\r\n        overflow-x: auto; \r\n        scroll-snap-type: x mandatory ;\r\n        margin-top: -20px;\r\n    }\r\n} */", "",{"version":3,"sources":["webpack://src/components/style.css"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GA05BG","sourcesContent":["/* @import url(\"https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap\");\r\n:root{ --primary-color:red;\r\n       --secundary-color:blue;\r\n       --third-color:white;\r\n}\r\n*{ \r\npadding: 0;\r\nmargin: 0;\r\nbox-sizing:border-box ;\r\n}\r\n.hide {\r\n    display: none;\r\n}\r\n.text-menu{\r\n    display: none;\r\n}\r\n.header-nav{\r\n    border-color: rgba(0,0,0,0.2) 1px solid;\r\n    height: 60px;\r\n    width: 100%;\r\n    justify-content: space-between;\r\n    display: flex;\r\n    background-color: black;\r\n    padding: 0 10px;\r\n    align-items: center;\r\n    margin-bottom: 80px;\r\n}\r\n.logo{\r\n    width:60%;\r\n    max-width: 450px;\r\n}\r\n.toggle-icon{    \r\n    width:auto ;\r\n    height: auto;\r\n    display: inline-block;\r\n}\r\n.logo-side{\r\n    display: none;\r\n}\r\n.side-nav{\r\n    z-index: 500;\r\n    text-align: center;\r\n    line-height: 50px;\r\n    background-color: rgba(0, 0, 0, 0.918);\r\n    width: 350px;\r\n    height: 100vh;\r\n    position: absolute;\r\n    top: 0;\r\n    right: 0;\r\n    padding-top: 100px ;\r\n }\r\n .foto{\r\n    margin:0 auto;\r\n    width: 65px;\r\n    height: 65px;\r\n    background-color: whitesmoke;\r\n    border-radius: 50%;\r\n}\r\n.fotousuario{\r\n    margin:0 auto;\r\n    width: 80%;\r\n    height: 80%;\r\n}\r\n.link{\r\n    margin-left: -40px;\r\n    font-family: 'Poppins';\r\n    text-decoration:none;\r\n    color:white;\r\n}\r\n.fa-box, .fa-tasks{\r\n    margin-left: 15%;\r\n    margin-top: 15px;\r\n    color:var(--primary-color);\r\n    padding-right: 1%;\r\n    width: auto;\r\n    height: auto;\r\n}\r\n.cliente{\r\n    \r\n    font-family: 'Poppins';\r\n    color:white;\r\n}\r\n.button-entrar{\r\n    cursor: pointer;\r\n    font-family: 'Poppins';\r\n    background-color: red;\r\n    color:white;\r\n    border-color:white;\r\n    border-radius: 5%;\r\n    margin-top: 20px;\r\n    margin-left: 30px;\r\n    padding: 8px 30px;\r\n}\r\nbody {\r\n    width: 100%;\r\n    height: 100%;\r\n    background-image: url(./img/fondo.jpg) ;\r\n    background-size:cover ;\r\n    background-repeat: no-repeat ;    \r\n    font-family: 'Poppins';\r\n  }\r\n.secciones {\r\n  text-align: center;\r\n    }\r\n.container {\r\n    margin:0 auto;\r\n    display:flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    width: auto;\r\n    height: auto;\r\n} \r\n.left-col .subhead {\r\n    margin-top: -40px;\r\n    text-transform: uppercase;\r\n    font-weight: bold;\r\n    color: gray;\r\n    letter-spacing: .3em;\r\n}\r\n.left-col h1 {\r\n    font-size: 2.5em;\r\n    line-height: 1.3em;\r\n    margin-bottom: 2.em;\r\n}\r\nh1{\r\n    margin-top: -60px;\r\n    font-size: 25px;\r\n}\r\n.tituloprincipal{\r\n    margin: 0;\r\n}\r\n.left-col .primary-cta {\r\n    margin-bottom: 15px;\r\n    background:var(--secundary-color) ;\r\n    color:var(--third-color) ;\r\n    text-decoration: none;\r\n    padding: .6em 3.3em;\r\n    font-size: 1.4em;\r\n    border-radius: 5em;\r\n    font-weight: bold;\r\n}\r\n.left-col .login-cta  {\r\n    margin: 15px 0;    \r\n    background:var(--primary-color) ;\r\n    color:var(--third-color) ;\r\n    text-decoration: none;\r\n    padding: .5em 3.3em;\r\n    font-size: 1.4em;\r\n    border-radius: 5em;\r\n    font-weight: bold;\r\n    }\r\n.secciones .container .left-col {\r\n    margin: 0em 2em 0 5em;\r\n    display: inline-block;\r\n}\r\n.formulario_label .formulario_selector .formulario_submit .formulario_titulo{\r\n    z-index: 200;\r\n}\r\nfieldset{\r\n    width: 50%;\r\n    margin-top: -50px;\r\n    display: flex;\r\n    flex-flow: column nowrap;\r\n    border-radius: 15px;\r\n    padding: 10px 30px;\r\n    border-color: rgba(0,0,0,0.2) solid 1px;\r\n    box-shadow: -7px 9px 15px -7px rgba(0,0,0,0.2);\r\n}\r\n.form-login{\r\n    width: 250px;\r\n    display: flex;\r\n    flex-flow: column nowrap ;    \r\n    padding: 20px;\r\n    margin-left: 10%;\r\n}\r\nlabel{\r\n    display: block;\r\n}\r\ninput{\r\npadding: 8px 10px;\r\nborder-radius: 8px;\r\nborder: s0olid 2px grey;\r\n}\r\n.slider-section{\r\n    display: block;\r\n    padding-top: 80px;\r\n    padding-bottom: 50px;\r\n    width: 130px;\r\n    margin-left: 20%;\r\n}\r\n.container-slider{\r\n    box-shadow: -7px 9px 15px -7px rgba(0,0,0,0.8);\r\n    display: block;\r\n    background-color: rgba(0,0,0,0.8);\r\n    width: 280px;\r\n    height: 220px;\r\n    margin-left: -20px;\r\n    padding: 15px;\r\n    margin-top: -150px;\r\n    border-radius: 15%;\r\n  }\r\n.slider-titulo{\r\n    color: honeydew;\r\n    text-align: center;\r\n    padding-bottom: 5px;\r\n    margin-top: -10px;\r\n}\r\nul, li {\r\n      padding: 0;\r\n      margin: 0;\r\n      list-style: none;\r\n  }\r\nul.slider{\r\n    position: relative;\r\n    width: 250px;\r\n    height: 140px;\r\n  }\r\n ul.slider li {\r\n    position: absolute;\r\n    left: 0px;\r\n    top: 0px;\r\n    opacity: 0;\r\n    width: inherit;\r\n    height: inherit;\r\n    transition: opacity .5s;\r\n    box-shadow: -7px 9px 15px -7px rgba(0,0,0,0.2);\r\n    border-radius: 15%;\r\n}\r\nul.slider li img{\r\n    width: 250px;\r\n    height: 140px;\r\n    border-radius: 15%;\r\n    box-shadow: -7px 9px 15px -7px rgba(0,0,0,0.2);\r\n    object-fit: cover;\r\n  }\r\nul.slider li:first-child {\r\n      opacity: 1; \r\n  }\r\nul.slider li:target {\r\n    opacity: 1; \r\n  }\r\n\r\n.menu li{\r\n    display: inline-block;\r\n    text-align: center;\r\n  }\r\n.menu li a{\r\n    display: inline-block;\r\n    color: white;\r\n    text-decoration: none;\r\n    background-color: grey;\r\n    width: 20px;\r\n    height: 20px;\r\n    font-size: 14px;\r\n    padding: 1px;\r\n    border-radius: 100%;\r\n  }\r\n.marcas{\r\n    width: 300px;\r\n    margin-left: 20%;\r\n    color: white;\r\n    background-color: rgba( 0,0,0,0.81 );\r\n    border-radius: 15%;\r\n}\r\n.marcasseccion{\r\n    display: none;\r\n    padding-top: 5px;\r\n    font-weight: bold;\r\n    font-size: 15px;\r\n    text-align: center;\r\n    margin-top: -20px;\r\n    padding-bottom: 25px;\r\n}\r\n.marcasfoto{\r\n    margin-left: 2px;\r\n    text-align: center;\r\n    margin-top: 15px;\r\n    width: 270px;\r\n    padding-bottom: 5px;\r\n    border-radius: 10%;\r\n}\r\nfooter{    \r\n    font-size: .8em;\r\n    height: 80px;\r\n    background-color: rgba(0, 0, 0, 0.918);\r\n    width: 100%;\r\n    position: absolute;\r\n }\r\n.footer-content{\r\n    color: white;\r\n    margin-left: 10%;\r\n    padding: auto;\r\n}\r\n.footer-text{\r\n    padding-top: 5px;\r\n    text-align: left;\r\n    margin-left:15%;\r\n}\r\n.footer-image{\r\n    margin-left: 60%;\r\n    margin-top: -8%;\r\n}\r\n.legend-footer{\r\n    margin-top: -10px;\r\n    font-size: 1em;\r\n    text-align: center;\r\n    font-family: 'Poppins';\r\n    color:var(--third-color);\r\n}\r\n.formulario_imput_Dos{\r\n    font-size: 12px;\r\n    height: 17px;\r\n    background-color: white;\r\n    text-align: center;\r\n    color: black; \r\n    width: 200px ;\r\n    padding-bottom: .05em;\r\n    margin-bottom: .6em; \r\n   -webkit-box-sizing: border-box;\r\n   box-sizing: border-box;\r\n }\r\n .formulario_selector_Dos {\r\n    height: 20px;\r\n    font-size: 12px;\r\n    background-color: white;\r\n    border-radius: 15%;\r\n    text-align: center;\r\n    color: black; \r\n    width: 200px ;\r\n    padding-bottom: .05em;\r\n    margin-bottom: .6em;\r\n    -webkit-box-sizing: border-box;\r\n    box-sizing: border-box;   \r\n }\r\n .formulario_label_Dos {\r\n    font-size: 13px;\r\n     margin-left: 10px;\r\n    height: 17px;\r\n    background-color: #1A8CFF;\r\n    border-radius: 15%;\r\n    text-align: center;\r\n  color: white; \r\n  width: 200px ;\r\n  padding-bottom: .05em;\r\n  margin-bottom: .6em;\r\n    -webkit-box-sizing: border-box;\r\n          box-sizing: border-box;   \r\n }\r\n .submit-btn-dos{\r\n     height: 20px;\r\n }\r\n\r\n.logocerrar{\r\n    background-color: white;\r\n    position: absolute;\r\n    top: 10px;\r\n    right: 0;\r\n    border-radius: 25px;\r\n}\r\n.empty-inventory{    \r\n    text-align: center;\r\n    height: 300px;\r\n    margin-left:10%;\r\n    margin-top: 25px;\r\n    padding-bottom: 250px;\r\n    margin-bottom: 120px;\r\n    background:url(\"./img/caja-blanca-vacia.jpg\") no-repeat center;\r\n    background-size: contain;    \r\n }\r\n.nombreVacio{\r\n    margin-left: 10%;\r\n    display: block;\r\n    width: 80%;\r\n    height: 20px;\r\n    text-align: center;\r\n    color:red;\r\n    font-family: 'Poppins';\r\n}\r\n.nombreVacio h1{\r\n    width: 100%;\r\n    text-align: center;\r\n    height: 5px;\r\n}\r\n.nuevosproductos{\r\n    margin-left: -50px;\r\n    background-color: #1A8CFF;\r\n    width: 250px;\r\n    border-radius: 15%;\r\n    text-align: center;\r\n    padding-top: 20px;\r\n    padding-bottom: 15px;\r\n}\r\n.submit-btn-dos{\r\n     margin-left: 5px;\r\n     height: 35px;\r\n     width: 100px;\r\n}\r\n\r\n.table-rwd {\r\nmargin-top: 15px;\r\nfont-size: .85em;\r\nborder: 1px solid rgba(181, 213, 144, 0.5);\r\ncolor: var(--secundary-color);\r\nborder-collapse: collapse;\r\nmargin-left: auto;\r\nmargin-right: auto; }\r\n.table-rwd td, .table-rwd th {\r\npadding: .8em;\r\nborder-bottom: 1px solid rgba(--primary-color) ; }\r\n.table-rwd th {\r\nbackground: #1A8CFF;\r\ncolor:var(--third-color);\r\nfont-weight: normal;\r\ntext-align: right; }\r\n.table-rwd td {\r\ntext-align: right; }\r\n.table-rwd td:first-of-type {\r\ntext-align: right; }\r\n.table-rwd td:first-of-type:before {\r\n    content: \"\"; }\r\n.table-rwd td:first-of-type:after {\r\n    content: \"\"; }\r\n.table-rwd tr:hover {\r\n    background: rgba(181, 213, 144, 0.2); }\r\n.table-rwd tr td:nth-child(2n) {\r\n    background: rgba(181, 213, 144, 0.2); }\r\n\r\n.table-container {\r\n    margin-left: 10%;  \r\n    margin-right: 10%;\r\n    overflow-x: auto; \r\n    scroll-snap-type: x mandatory ;\r\n    margin-top: -20px;\r\n}\r\n.compra{\r\n    z-index: -5;\r\n}\r\nh1{\r\n    font-size: 15px;\r\n}\r\n.table-rwd {\r\n    min-width: 900px; \r\n}\r\n.table-rwd td:first-child {\r\n    position: absolute;\r\n    background:var(--third-color );\r\n    width: 8em;\r\n    display: block; \r\n}\r\n.table-rwd td:last-child {\r\n    background:var(--primary-color );\r\n    width: 8em;\r\n}\r\n.table-rwd th:first-child {\r\n    position: absolute;\r\n    width: 8em; \r\n}\r\n.table-rwd tr:hover td:first-child {\r\n    background: #1A8CFF;\r\n    color:var(--third-color); \r\n}\r\n.campos-form{\r\n    text-align: center;\r\n    height: 30px;\r\n}\r\n.editor{\r\n    width: 500px;\r\n    height: 600px;\r\n    border: double royalblue solid 1px;\r\n    border-radius: 95px;\r\n    margin-right: 10%;\r\n}\r\n.secciones-cta{\r\n    padding-bottom: 70px;\r\n}\r\n@media only screen and (min-width: 417px) {\r\n    .secciones-cta{\r\n        padding-bottom: 110px;\r\n    }   \r\n    .slider-section{\r\n        padding-top: 50px;\r\n        padding-bottom: 50px;\r\n        margin-left: 25%;\r\n    }\r\n}\r\n.text-menu{\r\n    display: none;\r\n}\r\n\r\n@media only screen and (min-width: 529px) {\r\n    .secciones-cta{\r\n        padding-bottom: 180px;\r\n    }   \r\n    .slider-section{\r\n        margin-top: -70px;\r\n    }\r\n}\r\n@media only screen and (min-width: 635px) {\r\n    .marcasseccion{\r\n        display: block;\r\n        margin-left: 42%;\r\n        width: 270px;\r\n        margin-top: -270px;\r\n        padding-bottom: 35px;\r\n    }\r\n    .slider-section{\r\n        margin-left: 10%;\r\n        margin-top: -70px;\r\n    }\r\n}\r\n.secciones-tabla {\r\n    z-index: .8;\r\n    margin-top: -75px;\r\n    width: 100%;\r\n    position: relative;\r\n    text-align: center;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    padding-bottom: 330px;\r\n}\r\n.seccionesform{\r\n    height: 475px;\r\n    margin-left: 15%;\r\n    width: 250px;\r\n}\r\n.submit-btn{\r\n    display: block;\r\n}\r\n.secciones-tabla-dos {\r\n    box-shadow: rgba( 0,0,0,0.7 );\r\n    margin-top: 25px;\r\n    text-align: center;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    padding-bottom: 30px;\r\n}\r\n.nombrePag{\r\n  display:block ;\r\n  margin-top: 1px;\r\n  position: relative;\r\n  margin-left: auto;\r\n  margin-right : auto;\r\n  width: 60%;\r\n  height: 20px;\r\n  text-align: center;\r\n  color:red;\r\n  font-family: 'Poppins';\r\n} \r\n.formulario{\r\n    margin-top: -40px;\r\n    height: 100%     ;\r\n  }\r\n  .formulario_selector{\r\n    width: 60%;\r\n    margin-left: 25px;\r\n    padding: 20px;\r\n    margin-top:  80px;\r\n  }\r\n  input{\r\n      width: 200px;\r\n  }\r\n  .formulario_titulo{\r\n    text-align: center;\r\n    margin-top: 0;\r\n    color: rgba(0, 0,0,0,0.7 );\r\n }\r\n .formulario_imput, .formulario_label, \r\n .formulario_submit {\r\n   height: 20px;\r\n   margin-top: 70px;\r\n   margin-left: 25px;\r\n   text-align: center;\r\n   width: 200px ;\r\n   font-size: .5em;\r\n }\r\n .botones{\r\n     display: block;\r\n     width: 200px;\r\n }\r\n .formulario_imput{\r\n  width: 60%;\r\n  padding: 20px;\r\n  background: white;\r\n   border: 1px solid rgba(0, 0, 0,0.3);\r\n   margin-bottom: 40px;\r\n   color: red;\r\n }\r\n .formulario_label{\r\n   width: 58%;\r\n   margin-top: -80px;\r\n   z-index: -20;  \r\n   text-align: left;\r\n   color: black;\r\n   transition:  all 0.2s;\r\n   background-color: whitesmoke;\r\n   margin-left: 119px;\r\n}\r\n.formulario_submit{\r\n  width: 60%;\r\n  background: rgba(0, 0,0,0,0.7 );\r\n  color:white;\r\n  padding: 10px 20px;\r\n  cursor: pointer;\r\n  border: none;\r\n}\r\n.formulario_imput:focus{\r\n  outline: 1px solid rgba(0, 0,0,0,0.7 );\r\n}\r\n.formulario_imput:focus + .formulario_label{\r\n  margin-top: -135px;}  \r\n  \r\n .container_Dos{\r\n    display: block;\r\n    position: relative;\r\n    margin-left: 30%;\r\n}\r\n@media only screen and (min-width: 600px) {\r\n    .formulario_imput_Dos {\r\n        padding-bottom: .2em;\r\n        margin-bottom: 1em;\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    } \r\n    .formulario_selector_Dos{\r\n        padding-bottom: .2em;\r\n        margin-bottom: 1em;\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    }\r\n    .submit-btn{\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    }\r\n     .formulario_label_Dos{\r\n        width: 100px;\r\n        padding-bottom: .2em;\r\n        margin-bottom: 1em;\r\n    }\r\n    .formato-crear {\r\n        margin-left: 0;\r\n        display: block;\r\n    }\r\n    .crear-producto{\r\n        z-index: -1;\r\n    }\r\n    .secciones-tabla-dos{\r\n        box-shadow: rgba(0, 0,0,0,0.7 );\r\n        margin-left: 140px;\r\n        margin-top: -460px;\r\n        padding-bottom: 450px;\r\n        display: inline-block;\r\n        position: absolute;\r\n        width: 75%;\r\n    }\r\n    .container_Dos{\r\n        display: block;\r\n        position: relative;\r\n        margin-left: 90px;\r\n        padding-bottom: 20px;\r\n    }\r\n    .nuevosproductos{\r\n        text-align: center;\r\n        background-color: rgba(91, 139, 241, 0.7);\r\n        margin-top: -17px;\r\n        margin-left: -50px;\r\n        padding-bottom: 15px;\r\n        padding-top: 15px;\r\n        border-radius: 5%;\r\n        width: 120px;\r\n        box-shadow: -7px 9px 15px -7px rgba(0,0,0,0.6);\r\n    }\r\n}\r\n@media only screen and (min-width: 810px) \r\n{\r\n    .slider-section{\r\n        margin-top: -50px;\r\n        margin-left: 18%;\r\n    }\r\n    .marcasseccion{\r\n        margin-left: 50%;\r\n        padding-bottom: 80px;\r\n    }\r\n    footer{\r\n        padding-left: 100px;\r\n    }\r\n    .logo{\r\n        z-index: 2;\r\n    }\r\n    .text-menu{\r\n        color: var(--primary-color);\r\n        font-size: 15px;\r\n        font-family: 'Poppins';\r\n        margin-top: 60px;\r\n        display: block;\r\n        padding: auto;\r\n        font-weight: bold;\r\n    }\r\n    .logo-side{\r\n        padding: auto;  \r\n        display: block;\r\n        margin-left: 7px;\r\n        margin-top: -60px;\r\n    }\r\n    .side-nav{\r\n        text-align: center;\r\n        line-height: 50px;\r\n        background-color: rgba(0, 0, 0, 0.618);\r\n        width: 50px;\r\n        min-height: 100vh;\r\n        display: block;\r\n        position: fixed;\r\n        z-index: 1;\r\n        top: 0;\r\n        left: 0;\r\n        padding-top: 100px ;\r\n            }\r\n       .fotousuario{\r\n            display: none;      \r\n       }     \r\n       .foto{\r\n           display: none;\r\n       }\r\n       .button-entrar{\r\n           display: none;\r\n       }\r\n        .fa-tasks , .fa-box{\r\n            display: none;\r\n        }\r\n        .link-text{\r\n            display: none;\r\n        }\r\n        .cliente{\r\n            display: none;\r\n        }\r\n        .logo-side{\r\n            width: 30px;\r\n            top: 100px;\r\n            left: 0;\r\n        }\r\n    .side-nav:hover .side-menu{\r\n        text-align: center;\r\n        line-height: 50px;\r\n        background-color: rgba(0, 0, 0, 0.618);\r\n        width: 250px;\r\n        min-height: 100vh;\r\n        display: block;\r\n        position: fixed;\r\n        z-index: 1;\r\n        top: 0;\r\n        left: 0;\r\n        padding-top: 100px ;\r\n        box-sizing: border-box;\r\n     }     \r\n     .side-nav:hover .text-menu,.side-nav:hover .logo-side {\r\n        display: none;\r\n    }\r\n     .side-nav:hover .button-entrar {\r\n        display: inline-flex;\r\n    }\r\n     .side-nav:hover .link-text {\r\n         display: inline-flex;\r\n     }\r\n     .side-nav:hover .cliente {\r\n        display: inline-flex;\r\n     }\r\n     .side-nav:hover .foto {\r\n        display: inline-flex;\r\n     }\r\n     .side-nav:hover .fotousuario {\r\n        display: inline-flex;\r\n     }\r\n     .side-nav:hover.button-entrar{\r\n        display: inline-flex;\r\n     }\r\n     .side-nav:hover  .fa-tasks{\r\n        display: inline-flex;\r\n     }\r\n     .side-nav:hover  .fa-box{\r\n        display: inline-flex;\r\n     }\r\n     .nuevosproductos{\r\n         margin-left: -5px;\r\n        background-color: #1A8CFF;\r\n    }\r\n    .secciones{\r\n        margin-left: 5%;\r\n     }\r\n    .secciones-tabla{\r\n         margin-left: 50px;\r\n     }\r\n    .seccionesform{\r\n         margin-left: 5%;\r\n         height: 400px;\r\n     }\r\n    .form-login{\r\n        margin-left: 60%;\r\n        width: fit-content;\r\n        height: fit-content;\r\n        padding-bottom: 50px;\r\n    }\r\n    .secciones-cta{\r\n        padding-bottom: 100px;\r\n    }  \r\n    .seccionesPrincipal{\r\n        padding-bottom: 50px;\r\n        margin-left: 10px;\r\n    }\r\n    footer{\r\n        z-index: 3;\r\n        height: 220px;\r\n    }\r\n    .footer-content{\r\n        margin-left: 250px;\r\n        margin-top: 15px;\r\n    }\r\n    .toggle-icon{\r\n        display: none;\r\n    }\r\n    .logo{\r\n        margin-left: 25%;\r\n    }\r\n    .contact-section {\r\n        position: \r\n        relative;\r\n    }\r\n    .footer-left  {\r\n        color: white;\r\n        display: flex;\r\n        height: 100%;\r\n        width: 20%;\r\n        margin-left: 15px;\r\n        margin-top: 20px;\r\n    }\r\n    .footer-left  input button textarea{\r\n        color: white;\r\n        display: block;\r\n        width:100px;\r\n    }\r\n    .input-footer{\r\n        height: 10px;\r\n    }\r\n    h2{\r\n        position: absolute;\r\n        margin-left: 10px;\r\n        margin-top: -23px;\r\n    }\r\n    \r\n    .footer-content{\r\n        width:  50%;\r\n        margin-top: -185px;\r\n    }\r\n    .footer-text{\r\n        margin-top: 20px;\r\n        margin-left: 100px;\r\n        font-size: 20px;\r\n    }\r\n    .footer-image{\r\n        margin-left: 400px;\r\n        width: 80px;\r\n        margin-top: -50px;\r\n    }\r\n    .legend-footer{\r\n        margin-top: 5px;\r\n        font-size: 25px;\r\n        margin-left: 200px;\r\n    }\r\n    .logo-footer{\r\n        display: flex;\r\n        width: 400px;\r\n        margin-left: 250px;\r\n        margin-top: -30px;\r\n    }\r\n    .formulario_imput_Dos {\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    } \r\n    .formulario_selector_Dos{\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    }\r\n    .submit-btn{\r\n        width: 100px;\r\n        margin-left: 10px;\r\n        display: block;\r\n    }\r\n     .formulario_label_Dos{\r\n        width: 100px;\r\n    }\r\n    .formato-crear {\r\n        margin-left: 0;\r\n        display: block;\r\n        z-index: .7;\r\n    }\r\n    .secciones-tabla-dos{\r\n        box-shadow: rgba(0, 0,0,0,0.7 );\r\n        margin-left: 140px;\r\n        margin-top: -450px;\r\n        padding-bottom: 450px;\r\n        display: inline-block;\r\n        position: absolute;\r\n        width: 85%;\r\n    }\r\n    .container_Dos{\r\n        display: block;\r\n        position: relative;\r\n        margin-left: 90px;\r\n    }\r\n    .logocerrar{\r\n        display:none;\r\n    }\r\n    .table-container {\r\n        margin-left: 10%;  \r\n        margin-right: 10%;\r\n        overflow-x: auto; \r\n        scroll-snap-type: x mandatory ;\r\n        margin-top: -20px;\r\n    }\r\n} */"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/App.js":
+/*!********************!*\
+  !*** ./src/App.js ***!
+  \********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/style.css */ "./src/components/style.css");
+/* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_style_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/nav */ "./src/components/nav.js");
+/* harmony import */ var _components_cuerpo_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/cuerpo.js */ "./src/components/cuerpo.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Moet\\Desktop\\almacenenract\\my-app\\src\\App.js";
+
+
+
+
+
+function App() {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])("div", {
+    className: "App",
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_components_nav__WEBPACK_IMPORTED_MODULE_1__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 7
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_3__["jsxDEV"])(_components_cuerpo_js__WEBPACK_IMPORTED_MODULE_2__["default"], {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 7
+    }, this)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 6,
+    columnNumber: 5
+  }, this);
+}
+
+_c = App;
+/* harmony default export */ __webpack_exports__["default"] = (App);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "App");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/cuerpo.js":
+/*!**********************************!*\
+  !*** ./src/components/cuerpo.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _main_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main.js */ "./src/components/main.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Moet\\Desktop\\almacenenract\\my-app\\src\\components\\cuerpo.js";
+
+
+
+
+function Main() {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+    className: "seccionesPrincipal",
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: "secciones",
+      id: "index-ini",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "left-col",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("p", {
+          className: "subhead"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 8,
+          columnNumber: 25
+        }, this), "Porque lo mereces ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 8,
+          columnNumber: 68
+        }, this), " Estrena Veh\xEDculo", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("h1", {
+          className: "tituloprincipal"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 25
+        }, this), "Los mejores precios, las mejores marcas", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+          className: "secciones-cta",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("button", {
+            className: "login-cta"
+            /* onClick=" logIn()" */
+            ,
+            id: "registrarse",
+            text: "LOG IN",
+            children: "LOG IN"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 11,
+            columnNumber: 29
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("button", {
+            className: "primary-cta"
+            /* onClick=" registrarse()" */
+            ,
+            id: "registrarse",
+            children: "REGISTRATE"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 12,
+            columnNumber: 29
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 25
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 7,
+        columnNumber: 21
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 17
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("section", {
+      className: "seccionesform hide",
+      id: "login",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "container-login",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+          className: "left-col",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("form", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("fieldset", {
+              className: "form-login",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("legend", {
+                children: "LOG IN"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 21,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                htmlFor: "name",
+                children: "Usuario:"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 22,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("input", {
+                type: "name",
+                id: "usuario"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 24,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                htmlFor: "username",
+                children: "Password:"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 25,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("input", {
+                type: "password",
+                id: "clave"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 27,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("button", {
+                className: "botones"
+                /* onClick="usrpas()" */
+                ,
+                id: "registrarse",
+                value: "LOG\r IN"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 28,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 29,
+                columnNumber: 42
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 29,
+                columnNumber: 48
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("button", {
+                className: "botones"
+                /* onClick="window.location.reload()" */
+                ,
+                children: "Volver"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 30,
+                columnNumber: 37
+              }, this)]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 20,
+              columnNumber: 33
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 19,
+            columnNumber: 29
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 25
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 21
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 17
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("section", {
+      className: "seccionesform hide",
+      id: "registro",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "container-login",
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+          className: "left-col",
+          children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("form", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("fieldset", {
+              className: "form-login",
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("legend", {
+                children: "REGISTRO"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 41,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                children: "Nombre de Usuario"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 42,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("input", {
+                type: "name",
+                id: "usuario-cliente",
+                minLength: "3"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 43,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                children: "Cree una contrasena"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 44,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("input", {
+                type: "password",
+                minLength: "4",
+                id: "contrasena-cliente"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 44,
+                columnNumber: 71
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                children: "Repita su contrasena"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 46,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("input", {
+                type: "password",
+                minLength: "4",
+                id: "contrasena-clienteDos"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 46,
+                columnNumber: 72
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("label", {
+                children: "Ingrese su E-mail"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 48,
+                columnNumber: 37
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("input", {
+                type: "email",
+                id: "email-cliente"
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 48,
+                columnNumber: 69
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("button", {
+                className: "botones"
+                /* onClick="newCliente() " */
+
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 49,
+                columnNumber: 37
+              }, this), "REGISTRATE", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 49,
+                columnNumber: 107
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 49,
+                columnNumber: 113
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("button", {
+                className: "botones"
+                /* onClick="window.location.reload()" */
+
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 50,
+                columnNumber: 37
+              }, this), "VOLVER"]
+            }, void 0, true, {
+              fileName: _jsxFileName,
+              lineNumber: 40,
+              columnNumber: 33
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 39,
+            columnNumber: 29
+          }, this)
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 25
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 37,
+        columnNumber: 21
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 17
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("section", {
+      className: "slider-section",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "container-slider",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("h3", {
+          className: "slider-titulo",
+          children: "Articulos destacados"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 25
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("ul", {
+          className: "slider",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            id: "slide1",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("img", {
+              src: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/3947459/car.jpg"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 61,
+              columnNumber: 33
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 60,
+            columnNumber: 29
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            id: "slide2",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("img", {
+              src: "https://www.hibridosyelectricos.com/media/hibridos/images/2019/06/17/2019061712442294588.jpg"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 64,
+              columnNumber: 33
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 63,
+            columnNumber: 29
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            id: "slide3",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("img", {
+              src: "https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_600/https://tiempolibre.com.co/wp-content/uploads/2019/03/Aventura-Colombia.Com-Cuatrimotos.jpg"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 68,
+              columnNumber: 33
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 67,
+            columnNumber: 29
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 25
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("ul", {
+          className: "menu",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+              href: "#slide1",
+              children: "1"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 74,
+              columnNumber: 33
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 73,
+            columnNumber: 29
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+              href: "#slide2",
+              children: "2"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 77,
+              columnNumber: 33
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 76,
+            columnNumber: 29
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("li", {
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("a", {
+              href: "#slide3",
+              children: "3"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 80,
+              columnNumber: 33
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 79,
+            columnNumber: 29
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 72,
+          columnNumber: 25
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 57,
+        columnNumber: 21
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 17
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("section", {
+      className: "marcasseccion",
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+        className: "marcas",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 86,
+          columnNumber: 45
+        }, this), "Algunos de nuestros distribuidores", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("img", {
+          className: "marcasfoto",
+          src: "./img/marcas.jpg"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 88,
+          columnNumber: 25
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 86,
+        columnNumber: 21
+      }, this)
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 17
+    }, this)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 5,
+    columnNumber: 13
+  }, this);
+}
+
+_c = Main;
+/* harmony default export */ __webpack_exports__["default"] = (Main);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Main");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/main.js":
+/*!********************************!*\
+  !*** ./src/components/main.js ***!
+  \********************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+window.onload = function () {
+  document.getElementById("barraNavDos").innerHTML = `<div className="logo">
+            <a href="./index.html"> <img src = "./img/logo.jpeg" className="logo"/></a>
+        </div>
+        <div className="toggle-icon">
+            <img src="./img/menu-mobile.png" onclick="abrirNav()" className"menu-mobile"/>
+        </div>`;
+  document.getElementById("side-menu").innerHTML = `
+        <div className="side-menu "> 
+        <div className="text-menu">Menú</div>
+        <div className="foto">${identificarFoto()}</div>
+        <div> ${identificar()}</div>
+        <div><a  className="link" href="inventario.html" ><i className="fas fa-tasks"></i><span className="link-text">INVENTARIO</span></a></div> 
+        ${identificarNav()}
+        <img className="logo-side" src="./img/logo-side.png"/>
+                </div>
+
+        `; //document.getElementById("side-menu").classNameList.add("hide"); 
+};
+
+function identificarFoto() {
+  var retorn;
+
+  if (this.usuarioActual === "administrador") {
+    retorn = `
+            <img src = "./img/icono Moet.png" className ="fotousuario"  alt="logo" className="logo-foto"/> `;
+  }
+
+  if (this.usuarioActual === "Cliente") {
+    retorn = `
+
+            <img className ="fotousuario" src = "./img/client.png" alt="logo" className="logo-foto"/> `;
+  }
+
+  if (this.usuarioActual === "ninguno") {
+    retorn = `
+            <img  className ="fotousuario" src = "./img/guest.png" alt="logo" className="ilogo-foto"/> `;
+  }
+
+  return retorn;
+}
+
+function identificar() {
+  var retorna;
+
+  if (this.usuarioActual === "administrador") {
+    retorna = `<div className="cliente">Admin.</div>`;
+  }
+
+  if (this.usuarioActual === "Cliente") {
+    var nomcliente = localStorage.getItem("nombre");
+    retorna = `<div className="cliente">Usuario: ${nomcliente}</div>`;
+  }
+
+  if (this.usuarioActual === "ninguno") {
+    retorna = `<div className="cliente">Invitado.</div> `;
+  }
+
+  return retorna;
+}
+
+function identificarNav() {
+  var retornar;
+
+  if (this.usuarioActual === "administrador") {
+    retornar = `
+        <div><a className="link" href="productos.html"><i className = "fas fa-box" ></i><span className="link-text"> PRODUCTOS</span></a></div>
+        <div><button /* onclick="cerrarSesion()" */  className="button-entrar">Cerrar Sesion</button></div>
+        <div><img src="./img/menu-close.png" className="logocerrar" onclick="cerrarNav()"/></div></div>
+        `;
+  }
+
+  if (this.usuarioActual === "ninguno") {
+    retornar = `
+        <div><button className="button-entrar" onclick="registrarseN() "> Registro</button>
+        <div><img src="./img/menu-close.png" className="logocerrar" /* onclick="cerrarNav()"*/ /></div></div>
+        `;
+  }
+
+  if (this.usuarioActual === "Cliente") {
+    retornar = `
+        <div><button onclick="cerrarSesion() "className="button-entrar">Cerrar Sesion</button></div>
+        <div><img src="./img/menu-close.png" className="logocerrar" /* onclick="cerrarNav()" */ /></div></div>
+        `;
+  }
+
+  return retornar;
+}
+
+;
+/* function cerrarNav(){
+    document.getElementById("side-menu").classList.add("hide");
+}
+function abrirNav(){
+    document.getElementById("side-menu").classList.remove("hide");} */
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/nav.js":
+/*!*******************************!*\
+  !*** ./src/components/nav.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _main_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main.js */ "./src/components/main.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Moet\\Desktop\\almacenenract\\my-app\\src\\components\\nav.js";
+
+
+
+
+function Header() {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("header", {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: "header-nav",
+      id: "barraNavDos"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 13
+    }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__["jsxDEV"])("div", {
+      className: "side-nav",
+      id: "side-menu"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 13
+    }, this)]
+  }, void 0, true, {
+    fileName: _jsxFileName,
+    lineNumber: 5,
+    columnNumber: 9
+  }, this);
+}
+
+_c = Header;
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Header");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/style.css":
+/*!**********************************!*\
+  !*** ./src/components/style.css ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./style.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./style.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style.css",
+      function () {
+        content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./style.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/style.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/style.css */ "./src/components/style.css");
+/* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_components_style_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./App */ "./src/App.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! ./node_modules/react-refresh/runtime.js */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+var _jsxFileName = "C:\\Users\\Moet\\Desktop\\almacenenract\\my-app\\src\\index.js";
+
+
+
+
+
+react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(react__WEBPACK_IMPORTED_MODULE_0___default.a.StrictMode, {
+  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_4__["jsxDEV"])(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 5
+  }, undefined)
+}, void 0, false, {
+  fileName: _jsxFileName,
+  lineNumber: 7,
+  columnNumber: 3
+}, undefined), document.getElementById('root')); // If you want to start measuring performance in your app, pass a function
+// to log results (for example: reportWebVitals(console.log))
+// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ 1:
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\Moet\Desktop\almacenenract\my-app\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\Moet\Desktop\almacenenract\my-app\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js */"./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
+__webpack_require__(/*! C:\Users\Moet\Desktop\almacenenract\my-app\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\Moet\Desktop\almacenenract\my-app\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main","vendors~main"]]]);
+//# sourceMappingURL=main.chunk.js.map
